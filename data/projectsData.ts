@@ -1,12 +1,12 @@
 interface Project {
-  title: string
-  description: string
-  href?: string
-  imgSrc?: string
-  linkafiliados?: string
-  price?: number
-  reseñas?: number
-  name?: string
+  title: string;
+  description: string;
+  href?: string;
+  imgSrc?: string;
+  linkafiliados?: string;
+  priceamazon: number
+  resenas: number
+  start: number
 }
 
 const projectsData: Project[] = [
@@ -16,7 +16,10 @@ const projectsData: Project[] = [
     imgSrc: 'https://m.media-amazon.com/images/I/61PwH5SGgkL._AC_SX679_.jpg',
     href: '/blog/the-time-machine',
     linkafiliados: 'https://amzn.to/3YUGERL',
+    priceamazon: 200,
+    resenas: 25,
+    start: 3.5
   },
 ]
 
-export default projectsData
+export default projectsData;
