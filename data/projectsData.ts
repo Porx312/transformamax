@@ -2,25 +2,20 @@ interface Project {
   title: string
   description: string
   href?: string
-  imgSrc?: string
+  imgSrc?: string,
+  linkafiliados?: string,
+  price?: number,
+  reseñas?: number,
+  name?: string 
 }
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
-  {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
+    title: 'Cantonape 2000VA Convertidor de Voltaje 220V',
+    description: `Este convertidor de voltaje se utiliza para cambiar el voltaje, convertir el voltaje de 220 voltios a 110 voltios, también puede convertir el voltaje de 110 voltios a 220 voltios.`,
+    imgSrc: 'https://m.media-amazon.com/images/I/61PwH5SGgkL._AC_SX679_.jpg',
     href: '/blog/the-time-machine',
+    linkafiliados: "https://amzn.to/3YUGERL"
   },
 ]
 

@@ -1,8 +1,8 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href }) => (
-  <div className="md max-w-[544px] p-4 md:w-1/2">
+const Card = ({ title, description, imgSrc, href, linkafiliados }) => (
+  <div className="md max-w-[344px] p-4 md:w-1/2">
     <div
       className={`${
         imgSrc && 'h-full'
@@ -38,14 +38,26 @@ const Card = ({ title, description, imgSrc, href }) => (
             title
           )}
         </h2>
-        <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
-        {href && (
+        <p className="prose mb-2 text-sm max-w-none text-gray-500 dark:text-gray-400">{description}</p>
+      
+        {
+          linkafiliados && (
+            <Link
+              href={linkafiliados}
+              className="text-base  font-medium p-1  leading-6 text-black  bg-orange-400 flex justify-center  gap-1 rounded-md"
+              aria-label={`Link to ${title}`}
+            >
+            <Image className='bg-orange-400 '  src={"/static/images/amazon.png"} alt="Comprar en Amazon" width={20} height={20} />
+            comprar en amazon
+            </Link>
+          )}
+          {href && (
           <Link
             href={href}
             className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label={`Link to ${title}`}
           >
-            Learn more &rarr;
+            leer mas &rarr;
           </Link>
         )}
       </div>
