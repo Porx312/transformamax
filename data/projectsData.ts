@@ -1,9 +1,9 @@
 interface Project {
-  title: string;
-  description: string;
-  href?: string;
-  imgSrc?: string;
-  linkafiliados?: string;
+  title: string
+  description: string
+  href?: string
+  imgSrc?: string
+  linkafiliados?: string
   priceamazon: number
   resenas: number
   start: number
@@ -18,8 +18,8 @@ const projectsData: Project[] = [
     linkafiliados: 'https://amzn.to/3YUGERL',
     priceamazon: 200,
     resenas: 25,
-    start: 3.5
+    start: 3.5,
   },
 ]
 
-export default projectsData;
+export default projectsData

@@ -1,7 +1,7 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href, linkafiliados, priceamazon, resenas, start}) => (
+const Card = ({ title, description, imgSrc, href, linkafiliados, priceamazon, resenas, start }) => (
   <div className="md max-w-[304px] p-4 md:w-1/2">
     <div
       className={`${
@@ -65,7 +65,10 @@ const Card = ({ title, description, imgSrc, href, linkafiliados, priceamazon, re
               <path d="M0 0h24v24H0z" fill="none"></path>
               <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
             </svg>
-            <span className="ml-2 text-sm"> {start} ({resenas} reviews)</span>
+            <span className="ml-2 text-sm">
+              {' '}
+              {start} ({resenas} reviews)
+            </span>
           </div>
         </div>
 
