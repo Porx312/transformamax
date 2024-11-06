@@ -1,8 +1,9 @@
 {
-  "comparativas": 1,
-  "productos": 3,
-  "transformadores": 4,
+  "comparaciones": 3,
+  "productos": 5,
+  "inversores-de-corriente": 1,
   "guias": 1,
+  "transformadores": 3,
   "revision": 2,
   "consejos": 1
 }
