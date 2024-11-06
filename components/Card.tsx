@@ -2,11 +2,11 @@ import Image from './Image'
 import Link from './Link'
 
 const Card = ({ title, description, imgSrc, href, linkafiliados, priceamazon, resenas, start }) => (
-  <div className="md max-w-[304px] p-4 md:w-1/2">
+  <div className="md max-w-[304px] p-4 md:w-[100%] ">
     <div
       className={`${
         imgSrc && 'h-full'
-      } flex flex-col items-center justify-center overflow-hidden rounded-md border-2 bg-transparent hover:border-gray-200 hover:border-opacity-60 hover:dark:border-gray-700`}
+      } flex   flex-col items-center justify-center overflow-hidden rounded-md border-2 bg-transparent hover:border-gray-200 hover:border-opacity-60 hover:dark:border-gray-700`}
     >
       {imgSrc &&
         (href ? (
@@ -29,7 +29,7 @@ const Card = ({ title, description, imgSrc, href, linkafiliados, priceamazon, re
           />
         ))}
       <div className="p-6">
-        <h2 className="mb-3 text-base font-bold leading-8 tracking-tight">
+        <h2 className="mb-2 text-base font-bold leading-8 tracking-tight">
           {href ? (
             <Link href={href} aria-label={`Link to ${title}`}>
               {title}
