@@ -16,7 +16,7 @@ const projectsData: Project[] = [
     imgSrc: 'https://m.media-amazon.com/images/I/61PwH5SGgkL._AC_SX679_.jpg',
     href: '/blog/the-time-machine',
     linkafiliados: 'https://amzn.to/3YUGERL',
-    priceamazon: 200,
+    priceamazon: 88,
     resenas: 25,
     start: 3.5,
   },
