@@ -1,15 +1,11 @@
 {
-  "productos": 8,
+  "consejos": 1,
+  "guias": 5,
+  "transformadores": 10,
   "comparaciones": 5,
-  "transformadores": 9,
-  "mejores-transformadores": 1,
-  "guias": 4,
-  "preguntas-frecuentes": 2,
-  "revision": 4,
+  "productos": 8,
   "inversores-de-corriente": 1,
-  "transformador-220-a-380-trifásico-precio": 1,
-  "transformador-trifásico": 1,
-  "precio-transformador-220v-a-380v": 1,
-  "amazon-afiliados": 1,
-  "consejos": 1
+  "mejores-transformadores": 1,
+  "preguntas-frecuentes": 2,
+  "revision": 5
 }
