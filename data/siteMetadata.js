@@ -4,7 +4,7 @@ const siteMetadata = {
   author: 'codeporx',
   headerTitle: 'TransformaMAX',
   description:
-    'Descubre todo sobre transformadores elevadores: equipos esenciales para aumentar el voltaje en la transmisión de energía. Aprende sobre su funcionamiento, aplicaciones y beneficios en nuestro sitio web.',
+    'Descubre transformadores elevadores: equipos esenciales para aumentar el voltaje en la transmisión de energía. Aprende sobre su funcionamiento y beneficios.',
   language: 'es',
   theme: 'light', // system, dark or light
   siteUrl: 'https://transformamax.com/',
