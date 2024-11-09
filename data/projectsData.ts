@@ -108,7 +108,7 @@ const projectsData: Project[] = [
     description: `transformador 220v a 12v la carcasa de aluminio ultrafina con orificios de disipador de calor en forma de panal facilita la disipación de calor y puede prolongar la vida útil de la fuente de alimentación. 
 `,
     imgSrc: 'https://m.media-amazon.com/images/I/51JqTmhQr0L._SX522_.jpg',
-    href: '/blog/revision/green-cell-300w-600w',
+    href: '/blog/revision/Reseña-del-BRIMETI-Transformador-220V-a-24V-100W-LED-Driver',
     linkafiliados: 'https://amzn.to/3ACERat',
     priceamazon: 16.99,
     resenas: 485,

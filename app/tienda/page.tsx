@@ -1,6 +1,5 @@
-import projectsData from '@/data/projectsData'
-import Card from '@/components/Card'
 import { genPageMetadata } from 'app/seo'
+import FilterCard from '@/components/FilterCard'
 
 export const metadata = genPageMetadata({ title: 'Projects' })
 
@@ -12,26 +11,13 @@ export default function Projects() {
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Tienda
           </h1>
+
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             descubre los mejores transformadores
           </p>
         </div>
         <div className="container py-12">
-          <div className="-m-4 flex flex-wrap justify-center">
-            {projectsData.map((d) => (
-              <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-                linkafiliados={d.linkafiliados}
-                priceamazon={d.priceamazon}
-                start={d.start}
-                resenas={d.resenas}
-              />
-            ))}
-          </div>
+          <FilterCard />
         </div>
       </div>
     </>
