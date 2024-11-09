@@ -1,11 +1,11 @@
 {
-  "consejos": 1,
   "guias": 5,
   "transformadores": 10,
-  "comparaciones": 5,
   "productos": 8,
-  "inversores-de-corriente": 1,
+  "comparaciones": 5,
   "mejores-transformadores": 1,
   "preguntas-frecuentes": 2,
-  "revision": 5
+  "revision": 5,
+  "inversores-de-corriente": 1,
+  "consejos": 1
 }
