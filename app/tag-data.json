@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "guias": 5,
   "transformadores": 10,
   "productos": 8,
@@ -6,6 +7,17 @@
   "mejores-transformadores": 1,
   "preguntas-frecuentes": 2,
   "revision": 5,
+=======
+  "preguntas": 2,
+  "guias": 7,
+  "transformadores": 13,
+  "revision": 10,
+  "productos": 10,
+  "transformador": 1,
+  "comparaciones": 5,
+  "mejores-transformadores": 1,
+  "preguntas-frecuentes": 2,
+>>>>>>> origin/main
   "inversores-de-corriente": 1,
   "consejos": 1
 }
